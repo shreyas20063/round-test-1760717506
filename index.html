@@ -25,6 +25,12 @@
             margin-bottom: 2rem;
             color: #333;
         }
+        .table-container {
+            margin: 2rem 0;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
     </style>
 </head>
 <body>
@@ -33,6 +39,37 @@
             <div class="dashboard-container">
                 <h1>Welcome to Product Dashboard</h1>
                 <button type="button" class="btn btn-primary btn-lg">View Products</button>
+                
+                <div class="table-container">
+                    <table class="table table-striped table-hover" id="product-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Stock</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Wireless Mouse</td>
+                                <td>$29.99</td>
+                                <td>45</td>
+                            </tr>
+                            <tr>
+                                <td>Mechanical Keyboard</td>
+                                <td>$89.99</td>
+                                <td>23</td>
+                            </tr>
+                            <tr>
+                                <td>USB-C Cable</td>
+                                <td>$12.99</td>
+                                <td>150</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <button type="button" class="btn btn-success btn-lg">Add Product</button>
             </div>
         </div>
     </div>
