@@ -3,15 +3,20 @@
 ## Overview
 This is an automated web application generated to fulfill the following requirements.
 
+
+## Round 2
+
 ## Requirements
-Create a Bootstrap 5 page titled 'Product Dashboard'. Display a heading 'Welcome to Product Dashboard' and a blue button labeled 'View Products'. Use Bootstrap styling.
+Update the Product Dashboard: Add a Bootstrap table with id='product-table' showing 3 sample products (Name, Price, Stock). Keep the existing heading and button. Add a green 'Add Product' button below the table.
 
 ## Evaluation Criteria
-- Page has Bootstrap 5 loaded from CDN
-- Page title contains 'Product Dashboard'
-- Has h1 heading with 'Welcome to Product Dashboard'
-- Has a blue button with text 'View Products'
-- Uses Bootstrap classes for styling
+- Page still has Bootstrap 5 loaded
+- Original heading 'Welcome to Product Dashboard' still exists
+- Original blue 'View Products' button still exists
+- Has a table with id='product-table'
+- Table shows at least 3 products
+- Has a green 'Add Product' button
+- Uses Bootstrap table classes
 
 ## Setup
 This is a static web application hosted on GitHub Pages. No installation required.
